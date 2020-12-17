@@ -5,7 +5,7 @@ from jamo import h2j, j2hcj
 # matplotlib.font_manager._rebuild()
 
 import matplotlib.pyplot as plt
-font_name = matplotlib.font_manager.FontProperties(fname="C:/Windows/Fonts/NanumGothic.ttf").get_name()
+font_name = matplotlib.font_manager.FontProperties(fname="NanumGothic.ttf").get_name()
 plt.rc('font', family=font_name)
 
 from text import PAD, EOS
