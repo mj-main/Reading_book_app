@@ -78,7 +78,7 @@ if False: # Deep Voice 2
         'post_bank_channel_size': f(512),
         'post_rnn_size': f(256),
 
-        'reduction_factor': 4,
+        'reduction_factor': 5,
     })
 elif True: # Deep Voice 2
     basic_params.update({
@@ -90,7 +90,7 @@ elif True: # Deep Voice 2
         #'post_bank_channel_size': f(512),
         'post_rnn_size': f(256),
 
-        'reduction_factor': 4,
+        'reduction_factor': 5,
     })
 elif False: # Single Speaker
     basic_params.update({
@@ -101,7 +101,7 @@ elif False: # Single Speaker
         'post_bank_channel_size': f(128),
         #'post_rnn_size': f(128),
 
-        'reduction_factor': 4,
+        'reduction_factor': 5,
     })
 elif False: # Single Speaker with generalization
     basic_params.update({
@@ -113,7 +113,7 @@ elif False: # Single Speaker with generalization
         'post_bank_channel_size': f(128),
         'post_rnn_size': f(128),
 
-        'reduction_factor': 4,
+        'reduction_factor': 5,
     })
 
 
