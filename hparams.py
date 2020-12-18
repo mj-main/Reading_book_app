@@ -65,7 +65,7 @@ basic_params.update({
     'post_proj_sizes': [f(256), 80], # num_mels=80
     'post_proj_width': 3,
 
-    'reduction_factor': 4,
+    'reduction_factor': 5,
 })
 
 if False: # Deep Voice 2
