@@ -9,3 +9,9 @@
 
 ### 3. FFMPEG 설치
 - https://blog.naver.com/chandong83/222095346417
+
+
+### 4. 발표 영상
+- https://www.youtube.com/watch?v=03clOvhhbF8&ab_channel=YBIGTA
+
+* 사용방법에 대해서는 빠른 시일 내에 자세하게 정리할 예정입니다.
