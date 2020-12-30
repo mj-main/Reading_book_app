@@ -23,17 +23,17 @@
 
 
 ### 3. 결과 비교
-- 싱글 vs 멀티
+- 싱글(상단) vs 멀티(하단)
   - 화자에 따라 말하는 스타일은 다르긴 하지만, 한국어의 공통적인 요소를 학습하게 되는 멀티 모델이 싱글보다 학습이 안정적으로 되어 어텐션이 잘 잡힌다.
 ![nn](./results/single.png)
 ![nn](./results/multi.png)
 
-- 많은 화자 vs 정제된 화자
+- 많은 화자(상단) vs 정제된 화자(하단)
   - 오히려 화자가 3명일 때의 어텐션이 더 잘 잡히는 것을 볼 수 있다. 이는 이말년 데이터가 다른 데이터와는 달리 불규칙적인 발화 스타일을 가지고 있어서 노이즈로 작용한 것으로 분석된다.
 ![nn](./results/five.png)
 ![nn](./results/three.png)
 
-- reduction factor: 4 vs 5
+- reduction factor: 4(상단) vs 5(하단)
   - [선행 연구](https://www.eksss.org/archive/view_article?pid=pss-10-1-39)에 따르면 5일 때 문장에 따른 기복이 4보다 크다고 하였다. 하지만 학습시킨 결과 5가 더 좋았다.
 ![nn](./results/reduction4.png)
 ![nn](./results/reduction5.png)
