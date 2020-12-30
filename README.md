@@ -8,7 +8,7 @@
 
 ### 1. 학습 데이터셋
 - 손석희, [kss](https://www.kaggle.com/bryanpark/korean-single-speaker-speech-dataset), [하니](https://audioclip.naver.com/audiobooks/901DFE68BC), (박근혜), (이말년)
-  - [손석희](https://github.com/GSByeon/multi-speaker-tacotron-tensorflow): 음성인식까지 진행하고, recognition.json을 정제하여 alignment.json으로 활용하였습니다.
+  - [손석희](https://github.com/GSByeon/multi-speaker-tacotron-tensorflow): [음성인식](https://cloud.google.com/speech-to-text/docs/?hl=ko)까지 진행하고, recognition.json을 정제하여 alignment.json으로 활용하였습니다.
   - kss: 기본적으로 오디오와 텍스트 모두 제공됩니다.
   - 하니: 오디오를 녹음하고 [etri api](https://aiopen.etri.re.kr/guide_recognition.php)를 활용하여 텍스트를 추출하였습니다.
 - 박근혜, 이말년 데이터셋은 손석희 데이터셋과 수집 방법이 거의 동일합니다.
