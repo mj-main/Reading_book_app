@@ -2,7 +2,8 @@
 
 ### 0. 참고자료
 - [코드](https://github.com/GSByeon/multi-speaker-tacotron-tensorflow)
-- [에러 발생시](https://github.com/carpedm20/multi-speaker-tacotron-tensorflow/issues)
+- [에러 발생시1](https://github.com/carpedm20/multi-speaker-tacotron-tensorflow/issues)
+- [에러 발생시2](https://chldkato.tistory.com/141?category=839554)
 - [FFMPEG](https://blog.naver.com/chandong83/222095346417)
 
 
@@ -40,7 +41,7 @@
 
 ### 4. 데모
 - demo.ipynb 파일을 통해 손석희/kss/하니의 목소리로 124k까지 학습시킨 모델로 음성합성하실 수 있습니다.
-  - 이에 앞서 드라이브에 tacotron 디렉토리에 git clone을 먼저 하셔야 합니다.
+  - 이에 앞서 드라이브에 tacotron 디렉토리에서 git clone을 먼저 하셔야 합니다.
   
 
 - [발표영상](https://www.youtube.com/watch?v=03clOvhhbF8&ab_channel=YBIGTA)
